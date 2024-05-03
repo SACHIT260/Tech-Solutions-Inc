@@ -28,7 +28,7 @@ export const AuthProvider=({children})=>{
     const userAuthentication=async()=>{
         try {
             setisLoading(true);
-            const response=await fetch("http://localhost:5000/api/auth/user",{
+            const response=await fetch("https://tech-solutions-inc.onrender.com/api/auth/user",{
                 method:"GET",
                 headers:{
                 Authorization:authorizationToken,
@@ -53,7 +53,7 @@ export const AuthProvider=({children})=>{
 
     const getServices= async()=>{
         try {
-            const response=await fetch("http://localhost:5000/api/data/service",{
+            const response=await fetch("https://tech-solutions-inc.onrender.com/api/data/service",{
                 method:"GET",
             })
             console.log(response);
