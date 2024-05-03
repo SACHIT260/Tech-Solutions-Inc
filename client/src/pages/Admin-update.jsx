@@ -41,7 +41,7 @@ export const AdminUpdate = () => {
   //   get single user data
   const getSingleUserData = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/admin/users/${params.id}`, {
+      const response = await fetch(`https://tech-solutions-inc.onrender.com/api/admin/users/${params.id}`, {
         method: "GET",
         headers: {
           Authorization: authorizationToken,
@@ -80,7 +80,7 @@ export const AdminUpdate = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/api/admin/users/update/${params.id}`,
+        `https://tech-solutions-inc.onrender.com/api/admin/users/update/${params.id}`,
         {
           method: "PATCH",
           headers: {
