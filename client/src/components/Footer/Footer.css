@@ -1,0 +1,26 @@
+    footer{
+        padding: 3.2rem;
+        text-align: center;
+        background-color: var(--btn-color);
+        margin-top: auto;
+        font-size: 1.8rem;
+        line-height: 1.56;
+        letter-spacing: 0.1rem;
+        word-spacing: 0.06rem;
+        /* position: fixed; */
+        /* width:100%;
+        bottom: 0; */
+        /* min-height: 100vh; */
+        /* display: flex;
+        flex-direction: column; */
+        /* margin-top: auto; */
+    }
+    /* body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      footer {
+        margin-top: auto;
+      } */
