@@ -11,7 +11,7 @@ export const AdminContacts=()=>{
     
     const getContactsData=async ()=>{
         try {
-            const response=await fetch("http://localhost:5000/api/admin/contacts",{
+            const response=await fetch("https://tech-solutions-inc.onrender.com/api/admin/contacts",{
                 method:"GET",
                 headers:{
                     Authorization:authorizationToken,
@@ -33,7 +33,7 @@ export const AdminContacts=()=>{
     //Defining contact delete function
     const deleteContactById= async (id)=>{
         try {
-            const response=await fetch(`http://localhost:5000/api/admin/contacts/delete/${id}`,{
+            const response=await fetch(`https://tech-solutions-inc.onrender.com/api/admin/contacts/delete/${id}`,{
                 method:"DELETE",
                 headers:{
                     Authorization:authorizationToken,
