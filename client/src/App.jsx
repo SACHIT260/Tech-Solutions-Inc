@@ -16,7 +16,7 @@ import { AdminContacts } from "./pages/Admin-contacts"
 import { AdminUpdate } from "./pages/Admin-update"
 
 const App=()=>{
-  return <>
+  return (<>
     <BrowserRouter>
     <Navbar/>
       <Routes>
@@ -40,7 +40,7 @@ const App=()=>{
       </Routes>
       <Footer/>
     </BrowserRouter>
-  </>
+  </>)
 }
 
 export default App;
