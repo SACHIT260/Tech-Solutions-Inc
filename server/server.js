@@ -14,7 +14,7 @@ const errorMiddleware = require("./middlewares/error-middleware");
 
 //Let's tackle cors
 const corsOptions={
-    origin:"https://tech-solutions-inc-1.onrender.com",
+    origin:"https://tech-solutions-inc.vercel.app/",
     methods:"GET,POST,DELETE,PUT,PATCH,HEAD",
     credentials:true,
 }
